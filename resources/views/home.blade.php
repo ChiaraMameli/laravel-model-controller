@@ -6,11 +6,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <!-- SASS -->
-    <link rel="stylesheet" href="css/app.css" />
+    <link rel="stylesheet" href="{{asset('css/app.css')}}" />
+
+    <!-- JS -->
+    <script defer src="{{asset('js/app.js')}}"></script>
 
     <title>Movies</title>
 </head>
 <body>
-    
 </body>
 </html>
