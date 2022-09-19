@@ -1,0 +1,17 @@
+header{
+    background-color: $black;
+    padding: 1rem 0;
+
+    a{
+        color: #FFF;
+
+        &:hover,
+        &.active {
+            color: $light_primary_color;
+        }
+    }
+
+    li{
+        margin-right: 2rem;
+    }
+}

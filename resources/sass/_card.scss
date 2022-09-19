@@ -1,0 +1,13 @@
+._card {
+    width: calc((100vw / 3) - 7rem);
+    height: 300px;
+    margin: 2rem;
+    padding: 2rem;
+
+    border: 1px solid $black;
+    color: #fff;
+    border-radius: 10px;
+
+    background-color: $primary_color;
+
+}
